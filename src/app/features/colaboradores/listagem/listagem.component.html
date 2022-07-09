@@ -1,0 +1,14 @@
+<div class="sidebar-container">
+  <ul>
+    <h4>{{ tituloComponente }}</h4>
+    <img src="{{ colaborador.imagem }}" width="110px" alt="" />
+    <li><span class="negrito">ID: </span> {{ colaborador.id }}</li>
+    <li><span class="negrito">Nome: </span> {{ colaborador.nome }}</li>
+    <li><span class="negrito">Cargo: </span> {{ colaborador.cargo }}</li>
+
+    <li>
+      <span class="negrito">Salário: </span>
+      {{ colaborador.salario | currency: "BRL" }}
+    </li>
+  </ul>
+</div>

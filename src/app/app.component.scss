@@ -1,0 +1,12 @@
+.body {
+  display: flex;
+}
+
+.left-container {
+  flex: 1;
+  min-height: 100vh;
+}
+
+.right-container {
+  flex: 3;
+}
